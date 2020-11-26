@@ -26,3 +26,6 @@ urlpatterns = [
 # fred
 # hbob
 # mike
+# bg color
+# change color
+# color change 2
