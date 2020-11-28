@@ -5,7 +5,7 @@ from django.http import HttpResponse
 
 
 def home(request):
-    return HttpResponse("<h1>hello there</h1>")
+    return render(request, 'numbum/home.html')
 
 
 def rooms(request):
