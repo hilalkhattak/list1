@@ -9,4 +9,4 @@ def home(request):
 
 
 def rooms(request):
-    return HttpResponse("<h1>Rooms</h1>")
+    return render(request, 'numbum/rooms.html')

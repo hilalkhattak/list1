@@ -20,6 +20,6 @@ from numbum import views
 urlpatterns = [
 #    path('admin/', admin.site.urls),
     path('',views.home),
-    path('rooms',views.rooms),
+    path('rooms/',views.rooms),
     
 ]
